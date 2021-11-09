@@ -1,0 +1,31 @@
+{
+  "name": "ahj-http-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever ./src/js/app.js",
+    "watch": "forever -w ./src/js/app.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lap-Dmitry/Ahj-http-server.git"
+  },
+  "author": "Dmitry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lap-Dmitry/Ahj-http-server/issues"
+  },
+  "homepage": "https://github.com/lap-Dmitry/Ahj-http-server#readme",
+  "dependencies": {
+    "forever": "^4.0.1",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-static": "^5.0.0",
+    "uuid": "^8.3.2"
+  },
+  "engines": {
+    "node": "11.x"
+  } 
+}
